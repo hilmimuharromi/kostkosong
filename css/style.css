@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    background-color: #42bd4a;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.kiri img {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.kiri img:hover {
+    /* transition: transform .5s ease; */
+    transform: scale(1.1);
+
+}
+
+.kanan {
+    display: flex;
+    position: fixed;
+    right: 20px;
+    justify-content: flex-end;
+
+}
+
+.kanan a {
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.promo {
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-style: dotted;
+}
+
+.promo:hover {
+    border: 2px solid white;
+    border-radius: 2px;
+    border-style: dotted;
+}
+
+.kanan a:hover {
+    color: blanchedalmond;
+}
+
+.jumbotron {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/jumboimage.jpeg);
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.appimg {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.appimg h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.appimg h1 span {
+    color: #42bd4a;
+}
+
+.appimg img {
+    width: 40%;
+
+}
+
+.appimg img:hover {
+    -webkit-filter: drop-shadow(0px 0px 5px rgb(88, 194, 255));
+    filter: drop-shadow(0px 0px 5px rgb(88, 194, 255));
+}
+
+#kostbaru {
+    margin-top: 40px;
+    color: #42bd4a;
+    font-size: 40px;
+    overflow-x: hidden;
+}
+
+.cardbaru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.cardbaru div {
+    background-color: #ffffff;
+    width: 25vw;
+    height: 55vh;
+    margin: 30px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    /* -webkit-filter: drop-shadow(0px 0px 10px rgb(114, 115, 116));
+    filter: drop-shadow(0px 0px 10px rgb(114, 115, 116)); */
+    border-radius: 10px;
+}
+
+.cardbaru img:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    transform: scale(1.1);
+
+}
+
+.cardbaru p {
+    padding: 0px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.cardbaru img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-radius: inherit;
+}
+
+#kostmurah {
+
+    background-color: #42bd4a;
+    color: white;
+    font-size: 40px;
+    border: 15px solid #42bd4a;
+    overflow-x: hidden;
+}
+
+.cardmurah {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.cardmurah div {
+    background-color: white;
+    color: black;
+    width: 30vw;
+    height: 50vh;
+    margin: 20px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cardmurah p {
+    padding: 0px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.cardmurah img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-radius: inherit;
+}
+
+
+.cardmurah div:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    transform: scale(1.1);
+
+}
+
+
+#kostpremium {
+    margin: 0;
+    padding-top: 0;
+    background-color: black;
+    color: gold;
+    font-size: 40px;
+    border: 15px solid black;
+}
+
+.cardpremium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.cardpremium div {
+    background-color: black;
+    color: gold;
+    width: 25vw;
+    height: 50vh;
+    margin: 30px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cardpremium p {
+    padding: 0px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.cardpremium img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-radius: inherit;
+}
+
+
+.cardpremium div:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px gold);
+    filter: drop-shadow(0px 0px 20px gold);
+    transform: scale(1.1);
+
+}
+
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #42bd4a;
+    color: white;
+    height: 20vh;
+}
+
+.sosmed {
+    display: block;
+}
+
+.sosmed img {
+    width: 45px;
+    margin: 10px 0;
+}
+
+.sosmed img:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    filter: drop-shadow(0px 0px 20px rgb(114, 115, 116));
+    transform: scale(1.1);
+}
