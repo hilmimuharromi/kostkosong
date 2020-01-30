@@ -1,1 +1,1 @@
-# kostkosong-web
+https://hilmimuharromi.github.io/kostkosong
